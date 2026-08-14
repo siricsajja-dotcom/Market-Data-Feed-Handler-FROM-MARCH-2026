@@ -1,4 +1,4 @@
-# Market Data Feed Handler
+# Market Data Feed Handler - July 2026
 
 The "upstream half" of a trading system's book: turns a raw, unreliable
 binary market-data feed into a trustworthy, gap-aware order book. Real

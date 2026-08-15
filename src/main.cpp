@@ -32,6 +32,7 @@ int main() {
     for (const auto& m : delivered) sequencer.feed(m);
 
     const auto& stats = sequencer.stats();
+    
     std::printf("\nSequencer stats:\n");
     std::printf("  dispatched:            %llu\n", (unsigned long long)stats.dispatched);
     std::printf("  duplicates dropped:    %llu\n", (unsigned long long)stats.duplicates_dropped);
